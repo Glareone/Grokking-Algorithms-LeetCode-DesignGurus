@@ -1,10 +1,10 @@
 # Grokking-Algorithms-LeetCode-DesignGurus
 Exercises from different education platforms
 
-### Two Pointers
+### Dublicates in Array: Two Pointers, HashSet, Sorting 
 Solved here: https://dotnetfiddle.net/nYtY6c
 
-#### Brute Force
+#### Brute Force: Two pointers
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/36d19e0a-41c3-428f-93c1-0b2f61a0eb6c)  
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/44add527-59e4-4ddf-8bb8-c9dbe463edaa)  
 
