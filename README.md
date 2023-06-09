@@ -1,8 +1,10 @@
 # Grokking-Algorithms-LeetCode-DesignGurus
 Exercises from different education platforms
 
-### Dublicates in Array: Two Pointers, HashSet, Sorting 
-Solved here: https://dotnetfiddle.net/nYtY6c
+<details>
+<summary>Dublicates in Array. Solutions: Two Pointers, HashSet, Sorting </summary>
+  
+  Solved here: https://dotnetfiddle.net/nYtY6c
 
 #### Brute Force: Two pointers
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/36d19e0a-41c3-428f-93c1-0b2f61a0eb6c)  
@@ -16,3 +18,10 @@ Solved here: https://dotnetfiddle.net/nYtY6c
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/69ced3b4-6778-4b3c-9cc0-89a594a2538e)
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/e6484eb6-00c4-4c50-8444-faa051396d17)
+</details>
+
+<details>
+<summary>Pangram. In Progress</summary>
+  
+</details>
+
