@@ -22,6 +22,7 @@ Exercises from different education platforms
 
 <details>
 <summary>Pangram. In Progress</summary>
-  
+
+  Direct solution with Dictionary: https://dotnetfiddle.net/uS1jWC
 </details>
 
