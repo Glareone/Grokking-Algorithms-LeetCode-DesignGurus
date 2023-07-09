@@ -1,10 +1,20 @@
 # Grokking-Algorithms-LeetCode-DesignGurus
 Exercises from different education platforms
 
+## Theoretical part
+
 <details>
-<summary>Dublicates in Array. Solutions: Two Pointers, HashSet, Sorting </summary>
+<summary>Two pointers</summary>
+
+ ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/085a5b4e-29b9-406e-a25c-b76fe25661af)
+
+</details>
+
+## Practice
+<details>
+<summary>Dublicates in Array. Solutions: Two Pointers, HashSet, Sorting (easy)</summary>
   
-  Solved here: https://dotnetfiddle.net/nYtY6c
+Solved here: https://dotnetfiddle.net/nYtY6c
 
 #### Brute Force: Two pointers
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/36d19e0a-41c3-428f-93c1-0b2f61a0eb6c)  
@@ -21,8 +31,14 @@ Exercises from different education platforms
 </details>
 
 <details>
-<summary>Pangram. In Progress</summary>
+<summary>Pangram (easy)</summary>
 
-  Direct solution with Dictionary: https://dotnetfiddle.net/uS1jWC
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/3eae3692-28ed-4606-a7c9-560b364c591d)  
+Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
+</details>
+
+<details>
+<summary>Reverse Vovels (easy)</summary>
+
 </details>
 
