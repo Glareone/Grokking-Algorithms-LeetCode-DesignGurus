@@ -40,5 +40,7 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 <details>
 <summary>Reverse Vovels (easy)</summary>
 
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/c4323a97-84aa-41cb-a215-5df3f198e123)
+
 </details>
 
