@@ -1,6 +1,6 @@
 namespace ReverseVowels;
 
-public static class ReverseVowels
+internal static class ReverseVowels
 {
     private static readonly HashSet<char> VowelsSet = new() { 'a', 'e', 'i', 'o', 'u' };
 

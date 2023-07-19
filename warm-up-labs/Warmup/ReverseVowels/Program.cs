@@ -14,4 +14,8 @@ stringForTest = "DesignGUrus";
 Console.WriteLine($"original: {stringForTest}");
 Console.WriteLine($"output: {ReverseVowels.ReverseVowels.ReverseUsingArray(stringForTest)}");
 
+stringForTest = "1v0wel";
+Console.WriteLine($"original: {stringForTest}");
+Console.WriteLine($"output: {ReverseVowels.ReverseVowels.ReverseUsingArray(stringForTest)}");
+
 Console.ReadKey();
