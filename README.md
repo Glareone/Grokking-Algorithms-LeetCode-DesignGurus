@@ -45,3 +45,11 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 </details>
 
+<details>
+<summary>Valdiate Palindrome (easy)</summary>
+
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/48bf7f0c-c807-4b58-aa2a-91d343c9c175)  
+[Solved here using char[] and without allocating extra space](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ValidPalindrome/PalindromeValidation.cs)    
+
+</details>
+
