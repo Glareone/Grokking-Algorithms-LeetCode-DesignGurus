@@ -7,8 +7,21 @@ Exercises from different education platforms
 <summary>Two pointers</summary>
 
  ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/085a5b4e-29b9-406e-a25c-b76fe25661af)
-
 </details>
+
+<details>
+<summary>Matrix Traversal. 2D array and Grid. Problem statement is about "Depth First Search" (DFS) and "Breadth First Search" (BFS)</summary>
+
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/543404eb-0f83-420f-9a02-73b29dcb7f15)
+
+Example:  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/6c4727a7-7ee9-4356-83ca-f12f2b9e6c22)  
+
+Solution:  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/182f531d-696c-426f-bb95-cb48128541da)  
+</details>
+
+
 
 ## Practice
 <details>
