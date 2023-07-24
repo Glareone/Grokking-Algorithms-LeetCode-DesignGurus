@@ -66,3 +66,12 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 </details>
 
+<details>
+<summary>Valdiate Anagram (easy). Algorithm Complexity O(n), Space Complexity O(1)</summary>
+
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/72897af6-c9be-4bb3-9608-a35b39774414)   
+[Solved using Dict here](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ValidAnagram/AnagramValidation.cs) 
+
+</details>
+
+
