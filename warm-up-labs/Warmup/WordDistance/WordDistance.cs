@@ -6,7 +6,7 @@ internal static class WordDistance
     {
         var minDistance = initialWordArray.Length - 1;
 
-        int? FindClosestOppositeWord(int leftIndex)
+        int? FindDistanceToClosestOppositeWord(int leftIndex)
         {
             int? foundDistance = null;
             var lookingWord = initialWordArray[leftIndex] == word1 ? word2 : word1;
@@ -30,7 +30,7 @@ internal static class WordDistance
                 continue;
             }
             
-            var distance = FindClosestOppositeWord(i);
+            var distance = FindDistanceToClosestOppositeWord(i);
             if (distance < minDistance)
             {
                 minDistance = distance.Value;
