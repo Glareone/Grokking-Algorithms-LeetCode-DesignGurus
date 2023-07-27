@@ -74,4 +74,11 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 </details>
 
+<details>
+<summary>(Two pointers) Shortest Distance Between Words (easy). Algorithm Complexity Naive O(n2), Improved O(n), Space Complexity in both O(1)</summary>
+
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/28758626-0154-4b21-aced-c5f97f7a75e1)  
+Solved here:[WordDistance](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/WordDistance/WordDistance.cs)  
+
+</details>
 
