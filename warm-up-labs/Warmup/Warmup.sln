@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidAnagram", "ValidAnagra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordDistance", "WordDistance\WordDistance.csproj", "{34959BAF-1957-4A9B-BC8F-3170F594AB1E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfGoodPairs", "NumberOfGoodPairs\NumberOfGoodPairs.csproj", "{6C495989-A620-407B-94A7-B29F57EC3E88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{34959BAF-1957-4A9B-BC8F-3170F594AB1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34959BAF-1957-4A9B-BC8F-3170F594AB1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34959BAF-1957-4A9B-BC8F-3170F594AB1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C495989-A620-407B-94A7-B29F57EC3E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C495989-A620-407B-94A7-B29F57EC3E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C495989-A620-407B-94A7-B29F57EC3E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C495989-A620-407B-94A7-B29F57EC3E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
