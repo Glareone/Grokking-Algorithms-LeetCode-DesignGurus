@@ -34,7 +34,7 @@ PseudoCode:
 
 </details>
 
-## Practice
+## Practice. Warmup
 <details>
 <summary>Dublicates in Array. Solutions: Two Pointers, HashSet, Sorting (easy)</summary>
   
@@ -83,16 +83,23 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 </details>
 
 <details>
-<summary>(Two pointers) Shortest Distance Between Words (easy). Algorithm Complexity Naive O(n2), Improved O(n), Space Complexity in both O(1)</summary>
+<summary>(Two pointers) Shortest Distance Between Words (easy). Algorithm Complexity Naive O(n2), Improved O(n), Space Complexity in both cases O(1)</summary>
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/28758626-0154-4b21-aced-c5f97f7a75e1)  
 Solved here:[WordDistance](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/WordDistance/WordDistance.cs)  
 </details>
 
 <details>
-<summary>(Dictionary) Number of Good Pairs (easy). Algorithm Complexity Naive O(n), Improved O(n), Space Complexity in both O(1)</summary>
+<summary>(Dictionary) Number of Good Pairs (easy). Algorithm Complexity Naive O(n), Improved O(n), Space Complexity in both cases O(1)</summary>
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/f8c4a8c6-0949-4979-945c-f724dbe94241)   
 Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/NumberOfGoodPairs/NumberOfGoodPairs.cs)  
 </details>
 
+## Two Pointers
+<details>
+<summary>(SingleLinkedList) Hare-Tortoise Algorithm. Single LinkedList, find if it has cycle, find the length of the cycle. Algorithm Complexity O(n), Space Complexity O(1)</summary>
+
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/52a2f675-1e9b-4051-806d-d6f1998bb9b2)    
+Solved here: [Hare Tortoise Algorithm](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/fast-slow-pointers/FastSlowPointers/LinkedListCycle/SinglyLinkedList.cs)  
+</details>
