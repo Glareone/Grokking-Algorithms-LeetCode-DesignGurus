@@ -85,8 +85,8 @@ Solved here:[WordDistance](https://github.com/Glareone/Grokking-Algorithms-LeetC
 <details>
 <summary>(Dictionary) Number of Good Pairs (easy). Algorithm Complexity Naive O(n), Improved O(n), Space Complexity in both O(1)</summary>
 
-![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/f8c4a8c6-0949-4979-945c-f724dbe94241) 
-Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/NumberOfGoodPairs/NumberOfGoodPairs.cs)
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/f8c4a8c6-0949-4979-945c-f724dbe94241)   
+Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/NumberOfGoodPairs/NumberOfGoodPairs.cs)  
 
 </details>
 
