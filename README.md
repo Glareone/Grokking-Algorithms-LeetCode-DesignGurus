@@ -21,7 +21,18 @@ Solution:
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/182f531d-696c-426f-bb95-cb48128541da)  
 </details>
 
+<details>
+<summary>Fast & Slow Pointers. Hare & Tortoise algorithm</summary>
 
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/80dd75ba-065c-43bb-8897-ddcf6374c674)  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/c6815cfa-bbed-4fa4-910c-06f13f0d0c4b)  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/e17d38c3-eacc-41ee-981b-5a7aebf039d3)  
+
+PseudoCode:  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/34e948a5-20c9-4597-ae78-77f816928386)
+
+
+</details>
 
 ## Practice
 <details>
@@ -55,15 +66,13 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/c4323a97-84aa-41cb-a215-5df3f198e123)  
 [Solved here using char[] and string.Create](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ReverseVowels/ReverseVowels.cs)  
-
 </details>
 
 <details>
 <summary>Valdiate Palindrome (easy)</summary>
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/48bf7f0c-c807-4b58-aa2a-91d343c9c175)  
-[Solved here using char[] and without allocating extra space](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ValidPalindrome/PalindromeValidation.cs)    
-
+[Solved here using char[] and without allocating extra space](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ValidPalindrome/PalindromeValidation.cs)    \
 </details>
 
 <details>
@@ -71,7 +80,6 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/72897af6-c9be-4bb3-9608-a35b39774414)   
 [Solved using Dict here](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/ValidAnagram/AnagramValidation.cs) 
-
 </details>
 
 <details>
@@ -79,7 +87,6 @@ Solved with Dictionary here: https://dotnetfiddle.net/uS1jWC
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/28758626-0154-4b21-aced-c5f97f7a75e1)  
 Solved here:[WordDistance](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/WordDistance/WordDistance.cs)  
-
 </details>
 
 <details>
@@ -87,6 +94,5 @@ Solved here:[WordDistance](https://github.com/Glareone/Grokking-Algorithms-LeetC
 
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/f8c4a8c6-0949-4979-945c-f724dbe94241)   
 Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/warm-up-labs/Warmup/NumberOfGoodPairs/NumberOfGoodPairs.cs)  
-
 </details>
 
