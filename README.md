@@ -30,7 +30,22 @@ Solution:
 
 PseudoCode:  
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/34e948a5-20c9-4597-ae78-77f816928386)
+</details>
 
+<details>
+<summary>Breadth-First Search Algorithm. Complexity: O(Vertex+Edges).</summary>
+
+**In General:**  
+This algorithm is widely used in graphs. It may answer on the following questions:  
+1. Is there a way from A to B?  
+2. What the shortest way from A to B?
+
+**In practice:**  
+1. It could be useful to make a search among your friends by criteria.
+2. It also could be useful for grammar during writing: find the closest word you wanted to write: ALGORIPM -> ALGORITM.  
+
+**P.S.**  
+If you want to find the closest contact in graph by criteria ("who may sell your mangos") - you also need to use **QUEUE** and **HashSet\List**
 
 </details>
 
