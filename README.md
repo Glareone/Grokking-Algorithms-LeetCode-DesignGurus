@@ -45,7 +45,9 @@ This algorithm is widely used in graphs. It may answer on the following question
 2. It also could be useful for grammar during writing: find the closest word you wanted to write: ALGORIPM -> ALGORITM.  
 
 **P.S.**  
-If you want to find the closest contact in graph by criteria ("who may sell your mangos") - you also need to use **QUEUE** and **HashSet\List**
+If you want to find the closest contact in graph by criteria ("who may sell your mangos") - you also need to use **QUEUE** and **HashSet\List**  
+![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/0877df84-722b-41b3-8375-12d602dfc427)
+
 
 </details>
 
