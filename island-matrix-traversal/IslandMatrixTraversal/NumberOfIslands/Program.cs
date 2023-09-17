@@ -19,7 +19,7 @@ var matrixWithThreeIslands = new int[][]
     new[] { 0, 0, 1, 0, 0 }
 };
 
-var matrixWithOneIsland2 = new int[][]
+var matrixWithOneIsland2 = new []
 {
     new [] { 0, 1, 1, 1, 0 },
     new [] { 0, 0, 0, 1, 1 },
@@ -28,7 +28,7 @@ var matrixWithOneIsland2 = new int[][]
     new [] { 0, 0, 0, 0, 0 }
 };
 
-var matrixWithThreeIslands2 = new int[][]
+var matrixWithThreeIslands2 = new []
 {
     new[] { 1, 1, 1, 0, 0 },
     new[] { 0, 1, 0, 0, 1 },

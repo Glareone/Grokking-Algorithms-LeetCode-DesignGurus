@@ -79,6 +79,7 @@ public class NumberOfIslandsJaggedArray
 
             originalMatrix[col][row] = 0;
             
+            // Could be optimized here to prevent visiting already visited cells.
             queue.Enqueue((col - 1, row));
             queue.Enqueue((col + 1, row));
             queue.Enqueue((col, row - 1));
