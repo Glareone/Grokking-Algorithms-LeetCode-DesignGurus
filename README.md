@@ -117,6 +117,13 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 <details>
 <summary>(SingleLinkedList) Hare-Tortoise Algorithm. Single LinkedList, find if it has cycle, find the length of the cycle. Algorithm Complexity O(n), Space Complexity O(1)</summary>
 
-![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/52a2f675-1e9b-4051-806d-d6f1998bb9b2)    
-Solved here: [Hare Tortoise Algorithm](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/fast-slow-pointers/FastSlowPointers/LinkedListCycle/SinglyLinkedList.cs)  
+ ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/52a2f675-1e9b-4051-806d-d6f1998bb9b2)    
+ Solved here: [Hare Tortoise Algorithm](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/fast-slow-pointers/FastSlowPointers/LinkedListCycle/SinglyLinkedList.cs)  
+</details>
+
+## Matrix Traversal
+<details>
+<summary>Matrix Traversal. Count of Islands. BFS - DFS. Algorithm Complexity O(M*N), Space Complexity O(min(M,N)) or O(M*N)</summary>
+
+ https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/island-matrix-traversal/IslandMatrixTraversal/NumberOfIslands/Program.cs
 </details>
