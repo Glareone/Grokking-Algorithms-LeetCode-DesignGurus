@@ -48,6 +48,19 @@ This algorithm is widely used in graphs. It may answer on the following question
 If you want to find the closest contact in graph by criteria ("who may sell your mangos") - you also need to use **QUEUE** and **HashSet\List**  
 ![image](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/0877df84-722b-41b3-8375-12d602dfc427)
 
+</details>
+
+<details>
+<summary>Monotonic Stack. Scenarios. Key Advantages & Disadvantages</summary>
+
+<img width="829" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/d4a2d754-b2fd-4507-a4a0-0f8e9a8a7e46">
+<img width="838" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/113d1210-34dd-418d-b711-d7b1053f4cad">
+<img width="831" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/ab921e68-7f75-49eb-b868-10fdb2d23420">
+<img width="818" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/2fdc62aa-d136-444a-a052-579f1119aaf1">
+<img width="830" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/75628ad9-a3cc-441f-a78b-8725aab9b3b7">
+
+### Advantages & Disadvantages
+<img width="960" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/5a17f535-84f1-46af-9be4-5c559d49a2f5">
 
 </details>
 
