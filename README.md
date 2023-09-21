@@ -127,3 +127,9 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 
  https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/island-matrix-traversal/IslandMatrixTraversal/NumberOfIslands/Program.cs
 </details>
+
+<details>
+<summary>Matrix Traversal. Biggest Island. BFS & DFS</summary>
+
+https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs
+</details>
