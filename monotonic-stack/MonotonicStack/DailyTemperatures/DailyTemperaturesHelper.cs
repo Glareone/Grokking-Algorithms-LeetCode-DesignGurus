@@ -7,38 +7,27 @@ public static class DailyTemperaturesHelper
         var stack = new Stack<int>();
         var outputArray = new int[initialArray.Length];
         
-        for (var index = 0; index < initialArray.Length; index++)
+        for (var arrayIndex = 0; arrayIndex < initialArray.Length; arrayIndex++)
         {
-            if (!stack.TryPeek(out var stackElement))
+            if (stack.Count == 0)
             {
-                stack.Push(initialArray[index]);
+                stack.Push(arrayIndex);
                 continue;
             }
-
-            if (stack.TryPeek(out stackElement))
+            
+            while(stack.Count > 0)
             {
-                if (stackElement >= initialArray[index])
+                if (initialArray[stack.Peek()] < initialArray[arrayIndex])
                 {
-                    stack.Push(initialArray[index]);
-                    continue;
-                }
-
-                var daysUntilItGetsWarmer = 0;
-                while(stack.Count > 0)
-                {
-                    var stackEl = stack.Peek();
-                    if (stackEl < initialArray[index])
-                    {
-                        stack.Pop();
-                        daysUntilItGetsWarmer++;
-                        outputArray[index - daysUntilItGetsWarmer] = daysUntilItGetsWarmer;
+                        var savedIndex = stack.Pop();
+                        outputArray[savedIndex] = arrayIndex - savedIndex;
                         continue;
-                    }
-
-                    break;
                 }
-                stack.Push(initialArray[index]);
+
+                break;
             }
+            
+            stack.Push(arrayIndex);
         }
 
         return outputArray;
