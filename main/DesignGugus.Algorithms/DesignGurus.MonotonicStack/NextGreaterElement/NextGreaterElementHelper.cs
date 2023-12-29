@@ -1,4 +1,4 @@
-namespace NextGreaterElement;
+namespace DesignGurus.MonotonicStack.NextGreaterElement;
 
 public static class NextGreaterElementHelper
 {

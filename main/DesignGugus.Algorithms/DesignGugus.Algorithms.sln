@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.FastSlowPointer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.IslandMatrixTraversal", "DesignGurus.IslandMatrixTraversal\DesignGurus.IslandMatrixTraversal.csproj", "{34E990B0-89A5-4C78-847C-B2787348B151}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.MonotonicStack", "DesignGurus.MonotonicStack\DesignGurus.MonotonicStack.csproj", "{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{34E990B0-89A5-4C78-847C-B2787348B151}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E990B0-89A5-4C78-847C-B2787348B151}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E990B0-89A5-4C78-847C-B2787348B151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

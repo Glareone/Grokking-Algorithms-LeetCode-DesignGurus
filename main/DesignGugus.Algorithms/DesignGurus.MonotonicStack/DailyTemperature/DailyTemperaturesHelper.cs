@@ -1,4 +1,4 @@
-namespace DailyTemperatures;
+namespace DesignGurus.MonotonicStack.DailyTemperature;
 
 public static class DailyTemperaturesHelper
 {
