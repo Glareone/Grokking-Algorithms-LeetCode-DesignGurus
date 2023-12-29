@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGugus.TwoPointers", "DesignGugus.TwoPointers\DesignGugus.TwoPointers.csproj", "{217DA89F-8EC9-4F65-8C46-FB8EF23C35C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.FastSlowPointers", "DesignGurus.FastSlowPointers\DesignGurus.FastSlowPointers.csproj", "{08E631EE-AE04-45F6-8842-1A91C3979E3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.IslandMatrixTraversal", "DesignGurus.IslandMatrixTraversal\DesignGurus.IslandMatrixTraversal.csproj", "{34E990B0-89A5-4C78-847C-B2787348B151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignGurus.MonotonicStack", "DesignGurus.MonotonicStack\DesignGurus.MonotonicStack.csproj", "{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{217DA89F-8EC9-4F65-8C46-FB8EF23C35C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217DA89F-8EC9-4F65-8C46-FB8EF23C35C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217DA89F-8EC9-4F65-8C46-FB8EF23C35C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217DA89F-8EC9-4F65-8C46-FB8EF23C35C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08E631EE-AE04-45F6-8842-1A91C3979E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E631EE-AE04-45F6-8842-1A91C3979E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E631EE-AE04-45F6-8842-1A91C3979E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E631EE-AE04-45F6-8842-1A91C3979E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34E990B0-89A5-4C78-847C-B2787348B151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34E990B0-89A5-4C78-847C-B2787348B151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34E990B0-89A5-4C78-847C-B2787348B151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34E990B0-89A5-4C78-847C-B2787348B151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4830D9-C1B2-48A9-AEF2-ECE078762F83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
