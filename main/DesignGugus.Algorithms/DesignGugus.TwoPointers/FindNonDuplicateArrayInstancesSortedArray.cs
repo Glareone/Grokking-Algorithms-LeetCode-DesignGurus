@@ -1,6 +1,6 @@
 namespace DesignGugus.TwoPointers;
 
-public static class FindNonDuplicateArrayInstances
+public static class FindNonDuplicateArrayInstancesSortedArray
 {
     // Given an array of SORTED numbers
     // move all non-duplicate number instances at the beginning of the array in-place.
@@ -19,35 +19,25 @@ public static class FindNonDuplicateArrayInstances
         }
 
         var uniqueElementsSubArrayLength = 1;
-        var leftIndex = 1;
+        var rightIndex = 1;
         var nextNonDuplicate = 1;
 
-        while (leftIndex < array.Length)
+        while (rightIndex < array.Length)
         {
             // Check if the current element is different from the previous non-duplicate element.
-            if (array[nextNonDuplicate - 1] != array[leftIndex])
+            if (array[nextNonDuplicate - 1] != array[rightIndex])
             {
                 // If different, copy the current element to the nextNonDuplicate position and increment the index.
-                array[nextNonDuplicate] = array[leftIndex];
+                array[nextNonDuplicate] = array[rightIndex];
+                
                 uniqueElementsSubArrayLength ++;
                 nextNonDuplicate++;
             }
         
-            leftIndex++;
+            rightIndex++;
         }
 
         // Return the length of the new array with duplicates removed.
         return uniqueElementsSubArrayLength;
-    }
-    
-    // Given an UNSORTED array of numbers
-    // and a target 'key'
-    // remove all instances of 'key' in-place and return the new length of the array.
-    // Space Complexity Requirements O(1);
-    
-    // Time Complexity O(n) with two pointers approach. 
-    public static int GetNumberOfUniqueElementsUnsortedArray(this int[] unsortedArray)
-    {
-        throw new NotImplementedException();
     }
 }
