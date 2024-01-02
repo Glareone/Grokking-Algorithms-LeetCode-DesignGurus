@@ -2,6 +2,9 @@ namespace DesignGugus.TwoPointers;
 
 public static class SumOfTwoInArray
 {
+    // SUM OF TWO POINTERS
+    // Complexity: O(n).
+    // Memory: O(1);
     public static (int leftIndex, int rightIndex) GetElementIndexesWithSum(this int[] arrayElements, int expectedSum)
     {
         if (arrayElements.Length <= 1)
