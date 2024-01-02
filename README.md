@@ -134,6 +134,8 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
  Solved here: [Hare Tortoise Algorithm](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/fast-slow-pointers/FastSlowPointers/LinkedListCycle/SinglyLinkedList.cs)  
 </details>
 
+[Get the Length of unique(non-duplicate) elements in SORTED array](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindNonDuplicateArrayInstancesSortedArray.cs)  
+[Get the subarray of elements different from selected "Key" in UNSORTED array](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindNonDuplicateSubArrayUnsortedArray.cs)
 ## Monotonic Stack
 <details>
 <summary>Next Greater Element. Algorithm Complexity O(N), Space Complexity O(N) or O(M+N) where M - size of original array and N is size of permutation array</summary>
