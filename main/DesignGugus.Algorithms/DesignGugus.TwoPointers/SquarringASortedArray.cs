@@ -2,6 +2,10 @@ namespace DesignGugus.TwoPointers;
 
 public static class SquaringSortedArray
 {
+    // Given a sorted array,
+    // Create a new array containing squares of all the numbers of the input array in the sorted order.
+    // Memory Complexity: O(n)
+    // Time Complexity: O(n)
     public static int[] GetSquaringSortedArray(this int[] array)
     {
         var insertIndex = array.Length - 1;
