@@ -56,6 +56,13 @@ key = 2;
 Console.WriteLine($"original array: {string.Join(',', arrayGeAllElementsNotEqualToKeyUnsortedArray)}");
 Console.WriteLine($"length of sub array with elements not equal to key: {key} : {arrayGeAllElementsNotEqualToKeyUnsortedArray.GetNumberOfElementsNotEqualToKeyUnsortedArray(key)}");
 Console.WriteLine($"array: {string.Join(',', arrayGeAllElementsNotEqualToKeyUnsortedArray)}");
-
-
 Console.WriteLine("=============================");
+
+var originalSortedArrayToSquare = new int[] { -2, -1, 0, 2, 3 };
+var originalSortedArrayToSquare2 = new int[] { -3, -1, 1, 1, 2 };
+Console.WriteLine($"original array: {string.Join(',', originalSortedArrayToSquare)}");
+Console.WriteLine($"squared array: {string.Join(',', originalSortedArrayToSquare.GetSquaringSortedArray())}");
+Console.WriteLine($"original array: {string.Join(',', originalSortedArrayToSquare2)}");
+Console.WriteLine($"squared array: {string.Join(',', originalSortedArrayToSquare2.GetSquaringSortedArray())}");
+Console.WriteLine("=============================");
+
