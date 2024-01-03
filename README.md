@@ -136,6 +136,14 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 
 [Get the Length of unique(non-duplicate) elements in SORTED array](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindNonDuplicateArrayInstancesSortedArray.cs)  
 [Get the subarray of elements different from selected "Key" in UNSORTED array](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindNonDuplicateSubArrayUnsortedArray.cs)
+
+[Squaring The SORTED Array, Solution](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/SquarringASortedArray.cs)  
+<details>
+ <summary>Squaring The SORTED Array. Output array should be sorted as well</summary>
+ 
+ <img width="834" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/e2531f48-818c-469c-8c16-746c795022fb">
+</details>
+ 
 ## Monotonic Stack
 <details>
 <summary>Next Greater Element. Algorithm Complexity O(N), Space Complexity O(N) or O(M+N) where M - size of original array and N is size of permutation array</summary>
