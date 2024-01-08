@@ -143,6 +143,8 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
  
  <img width="834" alt="image" src="https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/assets/4239376/e2531f48-818c-469c-8c16-746c795022fb">
 </details>
+
+[Find closest recursive](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindClosestRecursive.cs)  
  
 ## Monotonic Stack
 <details>
