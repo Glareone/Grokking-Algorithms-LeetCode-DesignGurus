@@ -86,3 +86,22 @@ closestTo = 30;
 Console.WriteLine($"find closest to {closestTo}");
 Console.WriteLine($"closest: {FindClosestRecursive.DoFindClosestRecursive(originalArrayToFindClosestRecursive, 0, originalArrayToFindClosestRecursive.Length - 1, closestTo)}");
 Console.WriteLine("=============================");
+
+// == (MEDIUM) === Given an array of unsorted numbers, find all unique triplets in it that add up to zero.
+// Input: [-3, 0, 1, 2, -1, 1, -2]
+// Output: [[-3, 1, 2], [-2, 0, 2], [-2, 1, 1], [-1, 0, 1]]
+// Explanation: There are four unique triplets whose sum is equal to zero. smallest sum.'
+// Pair with Target Sum. A couple of differences are that the input array is not sorted and instead of a pair we need to find triplets with a target sum of zero.
+// 1) Sort the array
+// 2) Iterate through it taking one number X at a time. then find two other digits X + Y + Z = 0. 
+// 3) Skip duplicate numbers. Due to the fact we have sorted array all duplicate numbers will be close to each other.
+
+// Time Complexity: O(NLogN + N^2) which is asymptotically equivalent to O(N^2).
+// Space Complexity: O(N) - N variables introduced
+var originalArrayToFindUniqueTriplets = new int[] { -3, 0, 1, 2, -1, 1, -2 };
+var result = FindAllUniqueTripletsWithSum0.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTriplets);
+foreach(var triplet in result) { Console.WriteLine($"found triplet [{triplet[0]}, {triplet[1]}, {triplet[2]}]"); }
+
+var originalArrayToFindUniqueTripletsWithDuplicates = new int[] { -3, 0, 1, 1, 0, 1, 2, -1, -1, 1, -2, 4, 5 };
+result = FindAllUniqueTripletsWithSum0.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTripletsWithDuplicates);
+foreach(var triplet in result) { Console.WriteLine($"found triplet [{triplet[0]}, {triplet[1]}, {triplet[2]}]"); }
