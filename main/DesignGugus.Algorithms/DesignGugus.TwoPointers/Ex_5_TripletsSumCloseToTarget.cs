@@ -22,7 +22,7 @@ public static class Ex_5_TripletsSumCloseToTarget
 
         if (array.Count < 3)
         {
-            return new [] {0, 0, 0};
+            throw new ArgumentException("illegal argument exception");
         }
         
         int[] bestCombination = new [] { array[0], array[1], array[^1] };
