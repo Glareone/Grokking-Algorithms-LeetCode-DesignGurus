@@ -99,9 +99,35 @@ Console.WriteLine("=============================");
 // Time Complexity: O(NLogN + N^2) which is asymptotically equivalent to O(N^2).
 // Space Complexity: O(N) - N variables introduced
 var originalArrayToFindUniqueTriplets = new int[] { -3, 0, 1, 2, -1, 1, -2 };
-var result = FindAllUniqueTripletsWithSum0.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTriplets);
+var result = Ex_4_TripletsSumToZero.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTriplets);
 foreach(var triplet in result) { Console.WriteLine($"found triplet [{triplet[0]}, {triplet[1]}, {triplet[2]}]"); }
 
 var originalArrayToFindUniqueTripletsWithDuplicates = new int[] { -3, 0, 1, 1, 0, 1, 2, -1, -1, 1, -2, 4, 5 };
-result = FindAllUniqueTripletsWithSum0.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTripletsWithDuplicates);
+result = Ex_4_TripletsSumToZero.InvokeFindAllUniqueTripletsWithSum0(originalArrayToFindUniqueTripletsWithDuplicates);
 foreach(var triplet in result) { Console.WriteLine($"found triplet [{triplet[0]}, {triplet[1]}, {triplet[2]}]"); }
+
+// == (MEDIUM) === Given an array of unsorted numbers, find triplet with sum closest to target and with smallest sum
+// Input: [-3, -1, 1, 2], target=1
+// Output: 0
+// Explanation: The triplet [-3, 1, 2] has the closest sum to the target.
+// Input: [0, 0, 1, 1, 2, 6], target=5
+// Output: 4
+// Explanation: There are two triplets with distance '1' from target: [1, 1, 2] & [0, 0, 6].
+// Between these two triplets, the correct answer will be [1, 1, 2] as it has a sum '4'
+// which is less than the sum of the other triplet which is '6'.
+// This is because of the following requirement:
+// 'If there are more than one such triplet, return the sum of the triplet with the smallest sum.'
+var originalArray = new List<int> { -3, -1, 1, 2 };
+var targetSum = 0;
+var resultForCloseToTarget = Ex_5_TripletsSumCloseToTarget.InvokeFindTripletWithSumCloseToTarget(originalArray, targetSum);
+Console.WriteLine($"found triplet [{resultForCloseToTarget[0]}, {resultForCloseToTarget[1]}, {resultForCloseToTarget[2]}]");
+
+targetSum = 100;
+originalArray = new List<int> { 1, 0, 1, 1 };
+resultForCloseToTarget = Ex_5_TripletsSumCloseToTarget.InvokeFindTripletWithSumCloseToTarget(originalArray, targetSum);
+Console.WriteLine($"found triplet [{resultForCloseToTarget[0]}, {resultForCloseToTarget[1]}, {resultForCloseToTarget[2]}]");
+
+targetSum = 5;
+originalArray = new List<int> { 0, 0, 1, 1, 2, 6 };
+resultForCloseToTarget = Ex_5_TripletsSumCloseToTarget.InvokeFindTripletWithSumCloseToTarget(originalArray, targetSum);
+Console.WriteLine($"found triplet [{resultForCloseToTarget[0]}, {resultForCloseToTarget[1]}, {resultForCloseToTarget[2]}]");

@@ -1,6 +1,6 @@
 namespace DesignGugus.TwoPointers;
 
-public static class FindAllUniqueTripletsWithSum0
+public static class Ex_4_TripletsSumToZero
 {
     
     // Time Complexity:
