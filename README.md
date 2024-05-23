@@ -161,7 +161,13 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 </details>
 
 <details>
+
 <summary>Matrix Traversal. Biggest Island. BFS & DFS</summary>
 
 https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs
 </details>
+
+ ## Sliding Window
+ [Easy. Find the length of the smallest subarray with greater than target sum](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/FindLengthOfSmallestSubArrayWithSumGreaterThan.cs)  
+ [Easy. Maximum Sum of subarray](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/MaximumSumOfSubarray.cs)  
+ [Medium. Longest SubString with less or equal target number of unique characters](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/LongestSubstringWithNumberOfUniqueCharacters.cs)
