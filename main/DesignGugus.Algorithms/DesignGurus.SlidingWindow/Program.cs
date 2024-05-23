@@ -29,3 +29,13 @@ Console.WriteLine("sub array length is {0}, expected 1 for target 7", lengthOfSm
 originalArray = new int[] { 3, 4, 1, 1, 6 };
 lengthOfSmallestSubArray = originalArray.FindLengthOfSmallestSubArrayWithSumGreaterOrEqualThan(8);
 Console.WriteLine("sub array length is {0}, expected 3 for target 8", lengthOfSmallestSubArray);
+
+// Given a string, find the length of the longest substring in it with no more than K distinct characters.
+// Input: String="araaci", K=2  
+// Output: 4  
+// Explanation: The longest substring with no more than '2' distinct characters is "araa".
+// Input: String="araaci", K=1  
+// Output: 2  
+// Explanation: The longest substring with no more than '1' distinct characters is "aa".
+var foundMaxLengthOfSubstringWithUniqueChars = LongestSubstringWithNumberOfUniqueCharacters.FindSubstringWithUniqueCharacterOf("araaci", 2);
+Console.WriteLine($"Final substring length is {foundMaxLengthOfSubstringWithUniqueChars}, correct is 2");
