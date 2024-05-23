@@ -40,4 +40,7 @@ Console.WriteLine("sub array length is {0}, expected 3 for target 8", lengthOfSm
 // Explanation: The longest substring with no more than '1' distinct characters is "aa".
 Console.WriteLine("========= Longest SubString with {K} number of unique characters =========");
 var foundMaxLengthOfSubstringWithUniqueChars = LongestSubstringWithNumberOfUniqueCharacters.FindSubstringWithUniqueCharacterOf("araaci", 2);
-Console.WriteLine($"Final substring length is {foundMaxLengthOfSubstringWithUniqueChars}, correct is 2");
+Console.WriteLine($"Final substring length is {foundMaxLengthOfSubstringWithUniqueChars}, correct is 4 for 2 unique characters");
+foundMaxLengthOfSubstringWithUniqueChars = LongestSubstringWithNumberOfUniqueCharacters.FindSubstringWithUniqueCharacterOf("araaci", 1);
+Console.WriteLine($"Final substring length is {foundMaxLengthOfSubstringWithUniqueChars}, correct is 2 for 1 unique characters");
+
