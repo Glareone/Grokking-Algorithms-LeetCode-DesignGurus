@@ -1,25 +1,25 @@
 namespace DesignGurus.FastSlowPointers.LinkedListCycle;
 
-public class Node
+public class LinkedListNode
 {
     public int Value { get; init; }
 
-    public Node? Next { get; set; }
+    public LinkedListNode? Next { get; set; }
 }
 
 public class SinglyLinkedList
 {
-    private Node? Head { get; set; }
+    private LinkedListNode? Head { get; set; }
 
     public void Init()
     {
         var random = new Random();
-        Node? tempNode = null;
+        LinkedListNode? tempNode = null;
 
         for (var i = 0; i < random.Next(6, 20); i++)
         {
-            Node newNode = new() { Value = random.Next(1, 99) };
-            if (Head is null)
+            LinkedListNode newNode = new() { Value = random.Next(1, 99) };
+            if (Head == null)
             {
                 Head = newNode;
                 tempNode = Head;
@@ -84,7 +84,7 @@ public class SinglyLinkedList
         var randPoint = random.Next(1, 5);
         Console.WriteLine($"randomly selected position of cycle is {randPoint + 1}");
 
-        Node pointerToRandomizedPlace = Head;
+        LinkedListNode pointerToRandomizedPlace = Head;
         for (int i = 0; i <= randPoint; i++)
         {
             pointerToRandomizedPlace = pointerToRandomizedPlace.Next!;
@@ -125,7 +125,7 @@ public class SinglyLinkedList
 
     // Algorithm Complexity O(n)
     // Space Complexity O(1)
-    private void CalculateLengthOfCycle(Node node)
+    private void CalculateLengthOfCycle(LinkedListNode node)
     {
         var tempPointer = node;
         var length = 1;
