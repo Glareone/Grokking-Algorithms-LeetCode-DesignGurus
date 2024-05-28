@@ -14,6 +14,8 @@ singleLinkedList.CheckForCycle();
 singleLinkedList.AddCycleToHead();
 singleLinkedList.CheckForCycle();
 
+// Check For cycle Algorithm Complexity is O(N)
+// Space Complexity O(1)
 singleLinkedList = new SinglyLinkedList();
 singleLinkedList.Init();
 singleLinkedList.Traverse();
@@ -30,6 +32,9 @@ singleLinkedList.CheckForCycle();
 // Output: 4
 // Input: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> null
 // Output: 4
+//
+// Alg Complexity O(N)
+// Space Complexity O(1)
 singleLinkedList = new SinglyLinkedList();
 singleLinkedList.Init(6);
 singleLinkedList.Traverse();
