@@ -1,4 +1,4 @@
-namespace DesignGurus.FastSlowPointers.LinkedListCycle;
+namespace DesignGurus.FastSlowPointers;
 
 public class LinkedListNode
 {
@@ -9,16 +9,16 @@ public class LinkedListNode
 
 public class SinglyLinkedList
 {
-    private LinkedListNode? Head { get; set; }
+    public LinkedListNode? Head { get; private set; }
 
-    public void Init()
+    public void Init(int? targetLength = null)
     {
-        var random = new Random();
+        var selectedLength = targetLength ?? Random.Shared.Next(6, 20);
         LinkedListNode? tempNode = null;
 
-        for (var i = 0; i < random.Next(6, 20); i++)
+        for (var i = 0; i < selectedLength; i++)
         {
-            LinkedListNode newNode = new() { Value = random.Next(1, 99) };
+            LinkedListNode newNode = new() { Value = Random.Shared.Next(1, 99) };
             if (Head == null)
             {
                 Head = newNode;
