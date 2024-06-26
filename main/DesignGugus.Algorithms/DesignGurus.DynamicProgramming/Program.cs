@@ -19,4 +19,4 @@ Console.WriteLine($"minimum number of coins needed to get the targetSum is {Mini
 // Find minimum number of coins with memo
 // Alg Complexity O(N^2) still because of recursion
 // Memory Complexity O(N^2)
-Console.WriteLine($"minimum number of coins needed to get the targetSum is {new MinimumCoins().FindMinimumCoinsNumberWithMemo(13, new []{ 1,4,5 })}");
+Console.WriteLine($"minimum number of coins needed to get the targetSum is {new MinimumCoins().FindMinimumCoinsNumberWithMemoSubOptimal(13, new []{ 1,4,5 })}");
