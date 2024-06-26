@@ -64,6 +64,8 @@ If you want to find the closest contact in graph by criteria ("who may sell your
 
 </details>
 
+[great video about dynamic programming](https://www.youtube.com/watch?v=Hdr64lKQ3e4)  
+
 ## Practice. Warmup
 <details>
 <summary>Dublicates in Array. Solutions: Two Pointers, HashSet, Sorting (easy)</summary>
