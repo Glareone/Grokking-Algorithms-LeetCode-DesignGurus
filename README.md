@@ -174,3 +174,4 @@ https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traver
 
  ## Dynamic Programming
  [Fibonacci](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.DynamicProgramming/FibonacciNumbers.cs)
+ [Minimum number of coins](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.DynamicProgramming/MinimumCoins.cs)
