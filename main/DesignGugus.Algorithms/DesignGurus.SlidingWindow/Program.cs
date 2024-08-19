@@ -52,3 +52,8 @@ Console.WriteLine($"Final substring length is {foundMaxLengthOfSubstringWithUniq
 // You can start with any tree, but you can’t skip a tree once you have started.
 // You will pick exactly one fruit from every tree until you cannot, i.e., you will stop when you have to pick from a third fruit type.
 // Write a function to return the maximum number of fruits in both baskets.
+var maxFruitsCollected = FruitsIntoBasketsLongestSubArrayWith2UniqueCharacters.FindTheLongestSubArrayWith2UniqueCharacters(new char[] { 'A', 'B', 'C', 'A', 'C' });
+var maxFruitsCollected2 = FruitsIntoBasketsLongestSubArrayWith2UniqueCharacters.FindTheLongestSubArrayWith2UniqueCharacters(new char[] { 'A', 'B', 'C', 'B', 'B', 'C' });
+Console.WriteLine("=== Two Baskets, Collection of Fruits ===");
+Console.WriteLine($"Fruits 'A', 'B', 'C', 'A', 'C', Max: {string.Join(',', maxFruitsCollected)}");
+Console.WriteLine($"Fruits 'A', 'B', 'C', 'B', 'B', 'C', Max: {string.Join(',', maxFruitsCollected2)}");
