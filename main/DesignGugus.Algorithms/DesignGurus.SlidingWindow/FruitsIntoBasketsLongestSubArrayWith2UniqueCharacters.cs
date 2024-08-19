@@ -1,6 +1,6 @@
 namespace DesignGurus.SlidingWindow;
 
-public class FruitsIntoBasketsLongestSubArrayWith2UniqueCharacters
+public static class FruitsIntoBasketsLongestSubArrayWith2UniqueCharacters
 {
     // You are visiting a farm to collect fruits. The farm has a single row of fruit trees. You will be given two baskets, and your goal is to pick as many fruits as possible to be placed in the given baskets.
     // 
@@ -16,10 +16,64 @@ public class FruitsIntoBasketsLongestSubArrayWith2UniqueCharacters
     // Input: arr = ['A', 'B', 'C', 'B', 'B', 'C']  
     // Output: 5  
     // Explanation: We can put 3 'B' in one basket and two 'C' in the other basket. This can be done if we start with the second letter: ['B', 'C', 'B', 'B', 'C']
-    public static IEnumerable<char> FindTheLongestSubArrayWith2UniqueCharacters(IList<char> originalSubArray)
+    public static IEnumerable<char> FindTheLongestSubArrayWith2UniqueCharacters(char[] originalFruitArray)
     {
-        // Mocked Up
+        var leftPointer = 0;
+        var rightPointer = 1;
+        var differentFruitsCollection = new Dictionary<char, int>
+        {
+            { originalFruitArray[0], 1 },
+            { originalFruitArray[1], 1 }
+        };
+
+        var maxFoundLength = 2;
+        var maxFoundLeftPointer = leftPointer;
+        var maxFoundRightPointer = rightPointer;
         
-        return Array.Empty<char>();
+        // TOTAL Algorithm Complexity O(n+n) because of two While loops.
+        // Memory Complexity O(1) because we store only 3 types of fruits at maximum.
+        while (rightPointer < originalFruitArray.Length - 1 && leftPointer < rightPointer) 
+        {
+            rightPointer++;
+
+            if (differentFruitsCollection.Count < 2)
+            {
+                // If we can add new char with count of fruits 1 - then fine
+                // otherwise we increase the number of fruits on 1 because this char is already presented.
+                if (!differentFruitsCollection.TryAdd(originalFruitArray[rightPointer], 1))
+                {
+                    differentFruitsCollection[originalFruitArray[rightPointer]] += 1;
+                }
+                
+            }
+            else if (differentFruitsCollection.Count == 2 && !differentFruitsCollection.ContainsKey(originalFruitArray[rightPointer]))
+            {
+                // Alg complexity is O(N)
+                while (leftPointer < rightPointer && differentFruitsCollection.Count == 2)
+                {
+                    differentFruitsCollection[originalFruitArray[leftPointer]] -= 1;
+                    if (differentFruitsCollection[originalFruitArray[leftPointer]] == 0)
+                    {
+                        differentFruitsCollection.Remove(originalFruitArray[leftPointer]);
+                    }
+
+                    leftPointer++;
+                }
+                
+                differentFruitsCollection.Add(originalFruitArray[rightPointer], 1);
+            }
+
+            if (maxFoundLength < rightPointer - leftPointer + 1)
+            {
+                maxFoundLength = rightPointer - leftPointer + 1;
+                maxFoundLeftPointer = leftPointer;
+                maxFoundRightPointer = rightPointer;
+            }
+        }
+
+        var foundLength = maxFoundRightPointer - maxFoundLeftPointer + 1;
+        var foundArray = new char[foundLength];
+        Array.Copy(originalFruitArray, leftPointer, foundArray, 0, foundLength);
+        return foundArray;
     }
 }

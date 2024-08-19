@@ -1,6 +1,6 @@
 namespace APIRateLimiter.FixedWindow;
 
-public static class ProcessInputHandler
+public static class SlidingWindowHandler
 {
     public static void ProcessInputSlidingWindow(ConsoleKey key, Queue<DateTimeOffset> fixedWindowAPILimiter, int windowSizeInSeconds, int rateLimiterInWindowSize)
     {
