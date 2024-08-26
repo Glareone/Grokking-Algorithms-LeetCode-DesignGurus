@@ -1,3 +1,5 @@
+using DesignGurus.FastSlowPointers.Common;
+
 namespace DesignGurus.FastSlowPointers;
 
 public static class MiddleOfTheLinkedList

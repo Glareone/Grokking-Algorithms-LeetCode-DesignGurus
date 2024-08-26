@@ -1,4 +1,5 @@
 ﻿using DesignGurus.FastSlowPointers;
+using DesignGurus.FastSlowPointers.Common;
 
 var singleLinkedList = new SinglyLinkedList();
 singleLinkedList.Init();
@@ -39,3 +40,12 @@ singleLinkedList = new SinglyLinkedList();
 singleLinkedList.Init(6);
 singleLinkedList.Traverse();
 Console.WriteLine($"the middle of the singlyLinkedList is {singleLinkedList.FindTheMiddleOfTheLinkedList().Value}");
+
+// Given the head of a Singly LinkedList that contains a cycle.
+// Write a function to find the starting node of the cycle.
+// Init the linkedList and Internal Cycle;
+// Input: 1 -> 2 -> 3 -> 4 -> 5 -> 2
+//        or 1 -> 2 -> 3 -> 4 -> 5 -> 1
+// Output: 2 or 1
+var linkedList = new LinkedList().Init().InitInternalCycle();
+FindTheStartNodeOfTheInnerCycle.FindTheStartNodeOfTheCycle(linkedList);
