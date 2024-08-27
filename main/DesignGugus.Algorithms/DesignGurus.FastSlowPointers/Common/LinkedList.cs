@@ -3,12 +3,12 @@ namespace DesignGurus.FastSlowPointers.Common;
 public class LinkedList
 {
     public LinkedListNode? Head { get; private set; }
-    public int length;
+    public int Length;
 
     public LinkedList Init(int selectedLength = 6)
     {
         LinkedListNode? previouslyCreatedNode = null;
-        length = selectedLength;
+        Length = selectedLength;
 
         for (var i = 0; i < selectedLength; i++)
         {
@@ -33,12 +33,12 @@ public class LinkedList
 
     public LinkedList InitInternalCycle()
     {
-        if (Head is not { Next: null })
+        if (Head is { Next: null })
         {
             return this;
         }
         
-        var cycleStartNodePositionSelectedIndex = Random.Shared.Next(0, length - 1);
+        var cycleStartNodePositionSelectedIndex = Random.Shared.Next(0, Length - 1);
         var currentPosition = 0;
         LinkedListNode currentNode = Head;
         
