@@ -147,6 +147,9 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 </details>
 
 [Find closest recursive](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindClosestRecursive.cs)  
+
+## Fast & Slow Pointers
+[Find the start node of the inner cycle](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.FastSlowPointers/FindTheStartNodeOfTheCycle.cs)
  
 ## Monotonic Stack
 <details>
