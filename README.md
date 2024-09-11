@@ -160,9 +160,13 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
  https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/monotonic-stack/MonotonicStack/NextGreaterElement/NextGreaterElementHelper.cs
 </details>
 
+## Cycling Sort
+[1. Cycling Sort. Sort array 0-n in array of N elements without using extra space](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.CyclicSort/Ex_1_Cyclic_Sort_without_extra_space.cs)  
+[2. Find missing number using cycling sort](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.CyclicSort/Ex_2_Find_missing_number.cs)
+
 ## Matrix Traversal
-[Number Of islands](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.IslandMatrixTraversal/NumberOfIslandsJaggedArray/NumberOfIslandsJaggedArray.cs)
-[biggest island](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs)
+[1. Number Of islands](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.IslandMatrixTraversal/NumberOfIslandsJaggedArray/NumberOfIslandsJaggedArray.cs)  
+[2. Biggest island](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs)
 
  ## Sliding Window
  [Easy. Find the length of the smallest subarray with greater than target sum](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/FindLengthOfSmallestSubArrayWithSumGreaterThan.cs)  
