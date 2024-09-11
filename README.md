@@ -161,17 +161,8 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 </details>
 
 ## Matrix Traversal
-<details>
-<summary>Matrix Traversal. Count of Islands. BFS - DFS. Algorithm Complexity O(M*N), Space Complexity O(min(M,N)) or O(M*N)</summary>
-
- [Number Of islands](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.IslandMatrixTraversal/NumberOfIslandsJaggedArray/NumberOfIslandsJaggedArray.cs)
-
-<details>
-
-<summary>Matrix Traversal. Biggest Island. BFS & DFS</summary>
-
-https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs
-</details>
+[Number Of islands](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.IslandMatrixTraversal/NumberOfIslandsJaggedArray/NumberOfIslandsJaggedArray.cs)
+[biggest island](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/traversal-matrix-islands/island-matrix-traversal/IslandMatrixTraversal/BiggestIsland/BiggestIslands.cs)
 
  ## Sliding Window
  [Easy. Find the length of the smallest subarray with greater than target sum](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/FindLengthOfSmallestSubArrayWithSumGreaterThan.cs)  
