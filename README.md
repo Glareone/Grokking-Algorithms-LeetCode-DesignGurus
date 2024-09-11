@@ -164,8 +164,7 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 <details>
 <summary>Matrix Traversal. Count of Islands. BFS - DFS. Algorithm Complexity O(M*N), Space Complexity O(min(M,N)) or O(M*N)</summary>
 
- https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/island-matrix-traversal/IslandMatrixTraversal/NumberOfIslands/Program.cs
-</details>
+ [Number Of islands](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.IslandMatrixTraversal/NumberOfIslandsJaggedArray/NumberOfIslandsJaggedArray.cs)
 
 <details>
 
