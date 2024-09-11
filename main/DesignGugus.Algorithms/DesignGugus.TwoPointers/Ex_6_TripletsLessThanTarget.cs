@@ -15,7 +15,8 @@ namespace DesignGugus.TwoPointers;
 
 public static class Ex_6_TripletsLessThanTarget
 {
-    public static IEnumerable<List<int>> GetAllTripletsLessThanTarget(int[] originalUnsortedArray, int targetValue)
+    // Alg Complexity O(N^3) which is not optimal
+    public static IEnumerable<List<int>> GetAllTripletsLessThanTargetSubOptimal(int[] originalUnsortedArray, int targetValue)
     {
         // Space Complexity O(N)
         var sortedArray = new int[originalUnsortedArray.Length];
@@ -73,5 +74,72 @@ public static class Ex_6_TripletsLessThanTarget
         }
 
         return allFoundTriplets;
+    }
+
+    // Alg Complexity is still O(N^3) based on inner arrays, but code itself looks cleaner
+    // and I applied optimizations which simplify overall algorithm
+    public static IEnumerable<(int LeftValue, int MiddleValue, int RightValue)> OptimizedGetAllTripletsLessThanTarget(int[] originalUnsortedArray, int targetTripletSum)
+    {
+        // Space Complexity O(N)
+        var sortedArray = new int[originalUnsortedArray.Length];
+        Array.Copy(originalUnsortedArray, sortedArray, originalUnsortedArray.Length);
+        // Alg Complexity O(NLogN)
+        Array.Sort(sortedArray);
+
+        var allFoundTriplets = new List<(int,int,int)>();
+        // Alg Complexity O(N)
+        for (var leftIndex = 0; leftIndex < sortedArray.Length - 2; leftIndex++)
+        {
+            if (leftIndex > 0 && sortedArray[leftIndex] == sortedArray[leftIndex - 1])
+            {
+                continue;
+            }
+
+            var foundPairs =
+                FindUniquePairWithTargetSum(sortedArray, leftIndex, targetTripletSum - sortedArray[leftIndex]);
+
+            var foundTriplets = foundPairs.Select(pair => new ValueTuple<int,int,int>(sortedArray[leftIndex], pair.middleValue, pair.rightValue)).ToList();
+            
+            allFoundTriplets.AddRange(foundTriplets);
+        }
+
+        return allFoundTriplets;
+    }
+
+    private static IEnumerable<(int middleValue, int rightValue)> FindUniquePairWithTargetSum(
+        int[] sortedArray,
+        int leftIndex,
+        int targetSumForPair)
+    {
+        var middleIndex = leftIndex + 1;
+        var rightIndex = sortedArray.Length - 1;
+
+        var foundPairs = new List<(int, int)>();
+        // Alg Complexity O(N)
+        while (middleIndex < rightIndex)
+        {
+            if (sortedArray[middleIndex] + sortedArray[rightIndex] > targetSumForPair)
+            {
+                rightIndex--;
+            }
+            else
+            {
+                // since middleIndex is less than right,
+                // we can get all pairs with all right indexes less than current Right Index
+                // Alg Complexity O(N)
+                for (int tempRightIndex = rightIndex; tempRightIndex > middleIndex; tempRightIndex--)
+                {
+                    if (sortedArray[middleIndex] != sortedArray[tempRightIndex]
+                        && sortedArray[middleIndex] != sortedArray[leftIndex])
+                    {
+                        foundPairs.Add( new(sortedArray[middleIndex], sortedArray[tempRightIndex]));
+                    }
+                }
+                
+                middleIndex++;
+            }
+        }
+
+        return foundPairs;
     }
 }

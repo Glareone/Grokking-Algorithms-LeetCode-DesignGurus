@@ -147,16 +147,37 @@ Console.WriteLine($"found triplet [{resultForCloseToTarget[0]}, {resultForCloseT
 // [-1, 1, 4], [-1, 1, 3], [-1, 1, 2], [-1, 2, 3]
 var targetTripletSum = 3;
 var originalUnsortedArray = new int[] { -1, 0, 2, 3 };
-var foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+var foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTargetSubOptimal(originalUnsortedArray, targetTripletSum);
+// Expected: [-1, 0, 3], [-1, 0, 2]
 foreach (var currentTriplet in foundTripletsLessThanTarget)
 {
     Console.WriteLine($"found unique triplet with target sum less than {targetSum}: {currentTriplet[0]}, {currentTriplet[1]}, {currentTriplet[2]}");
 }
 
+
 targetTripletSum = 5;
 originalUnsortedArray = new int[] { -1, 4, 2, 1, 3 };
-foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTargetSubOptimal(originalUnsortedArray, targetTripletSum);
+Console.WriteLine("Expected: [-1, 1, 4], [-1, 1, 3], [-1, 1, 2], [-1, 2, 3]");
 foreach (var currentTriplet in foundTripletsLessThanTarget)
 {
     Console.WriteLine($"found unique triplet with target sum less than {targetSum}: {currentTriplet[0]}, {currentTriplet[1]}, {currentTriplet[2]}");
+}
+
+targetTripletSum = 3;
+originalUnsortedArray = new int[] { -1, 0, 2, 3 };
+var foundTripletSetsLessThanTarget = Ex_6_TripletsLessThanTarget.OptimizedGetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+Console.WriteLine("[Optimized Alg] Expected: [-1, 0, 3], [-1, 0, 2]");
+foreach (var currentTriplet in foundTripletSetsLessThanTarget)
+{
+    Console.WriteLine($"[Optimized] found unique triplet with target sum less than {targetSum}: {currentTriplet.LeftValue}, {currentTriplet.MiddleValue}, {currentTriplet.RightValue}");
+}
+
+targetTripletSum = 5;
+originalUnsortedArray = new int[] { -1, 4, 2, 1, 3 };
+foundTripletSetsLessThanTarget = Ex_6_TripletsLessThanTarget.OptimizedGetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+Console.WriteLine("[Optimized Alg] Expected: [-1, 1, 4], [-1, 1, 3], [-1, 1, 2], [-1, 2, 3]");
+foreach (var currentTriplet in foundTripletSetsLessThanTarget)
+{
+    Console.WriteLine($"[Optimized] found unique triplet with target sum less than {targetSum}: {currentTriplet.LeftValue}, {currentTriplet.MiddleValue}, {currentTriplet.RightValue}");
 }
