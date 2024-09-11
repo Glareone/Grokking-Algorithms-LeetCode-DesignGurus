@@ -13,7 +13,16 @@ public static class Ex_1_Cyclic_Sort_without_extra_space
         }
     }
     
+    // Cycling Sort
     // Alg complexity is O(N)
+    // The Alg complexity of the above algorithm is O(n).
+    // Although we are not incrementing the index i when swapping the numbers,
+    // this will result in more than n iterations of the loop,
+    // but in the worst-case scenario, the while loop will swap a total of n-1 numbers,
+    // and once a number is at its correct index, we will move on to the next number
+    // by incrementing i.
+    // So overall, our algorithm will take O(N) + O(n-1),
+    // which is asymptotically equivalent to O(N)
     // Memory Complexity is O(1)
     public static void SortArray(this int[] originalArray)
     {
