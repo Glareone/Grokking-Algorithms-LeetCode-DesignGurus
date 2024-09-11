@@ -148,6 +148,8 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
 
 [Find closest recursive](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/FindClosestRecursive.cs)  
 
+[Unique Triplets with sum less than target](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGugus.TwoPointers/Ex_6_TripletsLessThanTarget.cs)  
+
 ## Fast & Slow Pointers
 [Find the start node of the inner cycle](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.FastSlowPointers/FindTheStartNodeOfTheCycle.cs)
  
