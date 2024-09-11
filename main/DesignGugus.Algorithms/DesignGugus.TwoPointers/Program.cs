@@ -131,3 +131,32 @@ targetSum = 5;
 originalArray = new List<int> { 0, 0, 1, 1, 2, 6 };
 resultForCloseToTarget = Ex_5_TripletsSumCloseToTarget.InvokeFindTripletWithSumCloseToTarget(originalArray, targetSum);
 Console.WriteLine($"found triplet [{resultForCloseToTarget[0]}, {resultForCloseToTarget[1]}, {resultForCloseToTarget[2]}]");
+
+// ======== Unique triplets with sum less than target =========
+// Given an array arr of unsorted numbers and a target sum,
+// count all triplets in it such that arr[i] + arr[j] + arr[k] < target where i, j, and k
+// are three different indices. Write a function to return the count of such triplets.
+//
+// Input: [-1, 0, 2, 3], target=3 
+// Output: 2
+// Explanation: Two triplets whose sum is less than the target: [-1, 0, 3], [-1, 0, 2]
+//
+// Input: [-1, 4, 2, 1, 3], target=5 
+// Output: 4
+// Explanation: There are four triplets whose sum is less than the target: 
+// [-1, 1, 4], [-1, 1, 3], [-1, 1, 2], [-1, 2, 3]
+var targetTripletSum = 3;
+var originalUnsortedArray = new int[] { -1, 0, 2, 3 };
+var foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+foreach (var currentTriplet in foundTripletsLessThanTarget)
+{
+    Console.WriteLine($"found unique triplet with target sum less than {targetSum}: {currentTriplet[0]}, {currentTriplet[1]}, {currentTriplet[2]}");
+}
+
+targetTripletSum = 5;
+originalUnsortedArray = new int[] { -1, 4, 2, 1, 3 };
+foundTripletsLessThanTarget = Ex_6_TripletsLessThanTarget.GetAllTripletsLessThanTarget(originalUnsortedArray, targetTripletSum);
+foreach (var currentTriplet in foundTripletsLessThanTarget)
+{
+    Console.WriteLine($"found unique triplet with target sum less than {targetSum}: {currentTriplet[0]}, {currentTriplet[1]}, {currentTriplet[2]}");
+}
