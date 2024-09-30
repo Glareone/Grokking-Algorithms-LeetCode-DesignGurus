@@ -26,6 +26,8 @@ public class MergeIntervals
     }
     
     public List<Interval> MergeIntervals(List<Interval> intervals) {
+        // Sort them first to simplify finding overlaps. Alg Complexity: O(NLogN)
+        // Merge them in single pass merge O(N)
         var mergedIntervals = new List<Interval>();
         // TODO: Write your code here 
         return mergedIntervals;
