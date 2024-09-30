@@ -174,5 +174,7 @@ Solved here:[Number of good pairs](https://github.com/Glareone/Grokking-Algorith
  [Medium. Longest SubString with less or equal target number of unique characters](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.SlidingWindow/LongestSubstringWithNumberOfUniqueCharacters.cs)
 
  ## Dynamic Programming
+
+ ## Merge Intervals
  [Fibonacci](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.DynamicProgramming/FibonacciNumbers.cs)  
  [Minimum number of coins](https://github.com/Glareone/Grokking-Algorithms-LeetCode-DesignGurus/blob/main/main/DesignGugus.Algorithms/DesignGurus.DynamicProgramming/MinimumCoins.cs)
