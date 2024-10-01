@@ -33,6 +33,11 @@ public class MergeIntervalsClass
         {
             return new List<Interval>();
         }
+
+        if (intervals.Count == 2)
+        {
+            return intervals;
+        }
         
         var mergedIntervals = new List<Interval>();
         // Alg Complexity: O(NLogN)
