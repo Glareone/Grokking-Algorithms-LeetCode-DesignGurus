@@ -1,6 +1,6 @@
 namespace DesignGurus.MergeIntervals;
 
-public class MergeIntervals
+public class MergeIntervalsClass
 {
     // Given a list of intervals, merge all the overlapping intervals to produce a list that has only mutually exclusive intervals.
     // Example 1:
@@ -25,9 +25,43 @@ public class MergeIntervals
         public int End { get; set; } = end;
     }
     
-    public List<Interval> MergeIntervals(List<Interval> intervals) {
+    // Sort them first to simplify finding overlaps. Alg Complexity: O(NLogN)
+    // Merge them in single pass merge O(N)
+    public static List<Interval> MergeIntervals(List<Interval> intervals)
+    {
+        if (intervals == null || intervals.Count == 0)
+        {
+            return new List<Interval>();
+        }
+
+        if (intervals.Count == 2)
+        {
+            return intervals;
+        }
+        
         var mergedIntervals = new List<Interval>();
-        // TODO: Write your code here 
+        // Alg Complexity: O(NLogN)
+        intervals.Sort((interval1, interval2) => interval1.Start.CompareTo(interval2.Start));
+
+        // add first element to the interval
+        mergedIntervals.Add(intervals[0]);
+        
+        // Alg Complexity: O(N)
+        for(var index = 1; index < intervals.Count; index++)
+        {
+            Interval lastMergedInterval = mergedIntervals.Last();
+            if (intervals[index].Start <= lastMergedInterval.End)
+            {
+                lastMergedInterval.End = intervals[index].End > lastMergedInterval.End
+                    ? intervals[index].End
+                    : lastMergedInterval.End;
+            }
+            else
+            {
+                mergedIntervals.Add(intervals[index]);
+            }
+        }
+        
         return mergedIntervals;
     }
 }
